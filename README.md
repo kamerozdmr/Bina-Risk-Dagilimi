@@ -4,6 +4,8 @@ Uygulama ile taşıyıcı sistemi betonarme ve yığma olan binaların risk tesp
 https://webdosya.csb.gov.tr/db/altyapi/icerikler/r-skl--yapilarin-tesp-t-ed-lmes-ne-il-sk-n-esaslar-20190218134628.pdf
 
 
+
+
 Gerekli kütüphaneler:
 
 streamlit	(https://docs.streamlit.io/library/get-started/installation)
