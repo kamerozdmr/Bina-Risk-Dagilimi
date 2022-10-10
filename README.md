@@ -5,6 +5,9 @@ https://webdosya.csb.gov.tr/db/altyapi/icerikler/r-skl--yapilarin-tesp-t-ed-lmes
 
 
 Gerekli kütüphaneler:
+
 streamlit	(https://docs.streamlit.io/library/get-started/installation)
+
 Pillow (PIL)	(https://pillow.readthedocs.io/en/stable/installation.html)
+
 Pandas
