@@ -1,9 +1,19 @@
 import streamlit as st
 from PIL import Image
 
+# Streamlit ana menüsünü ve footerı sayfadan kaldır
+st.markdown(""" <style> #MainMenu {visibility: hidden;} footer {visibility: hidden;} </style> """, unsafe_allow_html=True)
+
+# İlerlemeyi gösteren bar ekle
+prg_percent = 80 # İlerleme yüzdesi
+progress_bar = st.progress(prg_percent)
+
+# Yan bar bilgi mesajı
+st.sidebar.success("Yukarıdaki değerlendirme yöntemlerini sıra ile doldurunuz.")
+
 st.title("Yapı Nizamı/Bitişik Binalarla Döşeme Seviyeleri")
 
-if st.session_state["bina_tipi"] == "Betonarme":
+if st.session_state["bina_tipi"] == "Betonarme" or "Yığma":
     #Betonarme bina tipinin seçildiği durum
 
     st.subheader("Açıklama")
@@ -16,7 +26,7 @@ if st.session_state["bina_tipi"] == "Betonarme":
             )
 
     image = Image.open("./figures/nizam_durumu.jpg")
-    st.image(image, width = 280)
+    st.image(image, width = 240)
 
     nizam_durumu = st.radio(
         "Yapının nizam durumunu seçiniz.",
@@ -48,12 +58,11 @@ if st.session_state["bina_tipi"] == "Betonarme":
             ("Aynı", "Farklı"))
 
         st.session_state["doseme_seviyesi"] = doseme_seviyesi
+
+    # İlerleme barını güncelle
+    progress_bar.progress(prg_percent+10)
     
 
-
-elif  st.session_state["bina_tipi"] == "Yığma":
-    #Diğer durum olan yığma bina tipinin seçildiği durum
-    st.write("Yığma bina tespiti yapım aşamasında...")
 
 elif st.session_state["bina_tipi"] == "Bina tipi seçilmedi":
     st.write("Bina tipini seçiniz.")
