@@ -12,4 +12,6 @@ streamlit	(https://docs.streamlit.io/library/get-started/installation)
 
 Pillow (PIL)	(https://pillow.readthedocs.io/en/stable/installation.html)
 
+GeoPy
+
 Pandas
