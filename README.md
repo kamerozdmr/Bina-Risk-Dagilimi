@@ -5,7 +5,7 @@ Uygulama ile taşıyıcı sistemi betonarme ve yığma olan binaların risk dağ
 https://webdosya.csb.gov.tr/db/altyapi/icerikler/r-skl--yapilarin-tesp-t-ed-lmes-ne-il-sk-n-esaslar-20190218134628.pdf
 
 
-<img src="figures/orneksonuc1.jpg" width="840" height="600">
+<img src="figures/orneksonuc1.jpg" width="800" height="600">
 <img src="figures/orneksonuc2.jpg" width="507" height="842">
 
 
