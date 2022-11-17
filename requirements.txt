@@ -1,0 +1,3 @@
+geopy==2.2.0
+mysql-connector-python==8.0.31
+streamlit_authenticator==0.2.1
