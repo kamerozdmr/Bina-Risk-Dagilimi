@@ -14,7 +14,7 @@ def rounder(sayi):
 
 
 def getAccCoeff(enlem, boylam, zemin):
-    df = pd.read_excel("spektral_ivme/parametreler.xlsx")
+    df = pd.read_excel("parametreler.xlsx")
 
     b_low, b_high = rounder(boylam)
     e_low, e_high = rounder(enlem) 
