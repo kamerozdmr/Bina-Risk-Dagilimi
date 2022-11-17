@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    gtu:
+      name: login1
+      password: '$2b$12$Se5JWlXTHxelMFyO8Q.U2e/FlQv.lBnt7Dktfh1g0B4aHGwdHYERO' # To be replaced with hashed password
+    admin:
+      name: login2
+      password: '$2b$12$aRwSHsT970MgYfS9i8h.dO0fBB3xe.gXKO9ltj.FjpsSIkTDKvvDe' # To be replaced with hashed password
+cookie:
+  expiry_days: 1
+  key: bina_risk_dagilimi
+  name: pas
+preauthorized:
+  emails:
+  - kamer.oz@outlook.com
