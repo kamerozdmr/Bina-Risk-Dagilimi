@@ -5,8 +5,8 @@ Uygulama ile taşıyıcı sistemi betonarme ve yığma olan binaların risk dağ
 https://webdosya.csb.gov.tr/db/altyapi/icerikler/r-skl--yapilarin-tesp-t-ed-lmes-ne-il-sk-n-esaslar-20190218134628.pdf
 
 
-<img src="orneksonuc1.jpg" width="1086" height="919">
-<img src="orneksonuc2.jpg" width="507" height="842">
+<img src="figures/orneksonuc1.jpg" width="1086" height="919">
+<img src="figures/orneksonuc2.jpg" width="507" height="842">
 
 
 Gerekli kütüphaneler:
@@ -18,3 +18,5 @@ Pillow (PIL)	(https://pillow.readthedocs.io/en/stable/installation.html)
 GeoPy
 
 Pandas
+
+mysql.connector
