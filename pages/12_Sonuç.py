@@ -170,7 +170,7 @@ if st.session_state["authentication_status"]:
                         TP = 110
                 
                 else:
-                    st.warning("Hatalı veya eksik kat adedi bilgisi")
+                    return st.warning("Hatalı veya eksik kat adedi bilgisi")
                 
                 return TP
 
