@@ -64,7 +64,7 @@ if st.session_state["authentication_status"]:
             if zemin_sinifi == "ZC" or "ZD" or "ZE":
                 DTB = 1
             elif zemin_sinifi == "ZA" or "ZB":
-                        DTB = 2
+                DTB = 2
         elif 0.75 <= sds < 1.0:
             if zemin_sinifi == "ZC" or "ZD" or "ZE":
                 DTB = 2
