@@ -169,6 +169,9 @@ if st.session_state["authentication_status"]:
                     elif DTB == 4:
                         TP = 110
                 
+                else:
+                    st.warning("Hatalı veya eksik kat adedi bilgisi")
+                
                 return TP
 
 
