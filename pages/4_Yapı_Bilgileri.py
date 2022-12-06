@@ -48,7 +48,7 @@ if st.session_state["authentication_status"]:
         st.image(image, width=250)
 
         if "kat_adedi" not in st.session_state:
-            st.session_state["kat_adedi"] = 0
+            st.session_state["kat_adedi"] = ""
 
         kat_adedi = st.text_input("Serbest kat adedini giriniz.", st.session_state["kat_adedi"])
 
@@ -131,7 +131,7 @@ if st.session_state["authentication_status"]:
         st.image(image, width = 250)
 
         if "kat_adedi" not in st.session_state:
-            st.session_state["kat_adedi"] = 0
+            st.session_state["kat_adedi"] = ""
 
         kat_adedi = st.text_input("Serbest kat adedini giriniz.", st.session_state["kat_adedi"])
         
