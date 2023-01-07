@@ -1,10 +1,12 @@
 # Bina-Risk-Dagilimi
+
+https://binariskdagilimi.streamlit.app/
+
 Uygulama ile taşıyıcı sistemi betonarme ve yığma olan binaların risk dağılımı, aşağıdaki yayınlanmış esaslara göre yapılmaktadır.
 
 
-https://webdosya.csb.gov.tr/db/altyapi/icerikler/r-skl--yapilarin-tesp-t-ed-lmes-ne-il-sk-n-esaslar-20190218134628.pdf
 
-https://binariskdagilimi.streamlit.app/
+https://webdosya.csb.gov.tr/db/altyapi/icerikler/r-skl--yapilarin-tesp-t-ed-lmes-ne-il-sk-n-esaslar-20190218134628.pdf
 
 
 <img src="figures/orneksonuc1.jpg" width="750" height="600">
